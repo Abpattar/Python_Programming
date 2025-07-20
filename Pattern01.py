@@ -3,8 +3,8 @@
 # 5 6 11 12 (End goal)
 
 # Method 1: Using a pattern-based approach
-for row in range(3):  # 3 rows
-    for col in range(4):  # 4 columns
+for row in [0, 1, 2]:  # 3 rows
+    for col in [0, 1, 2, 3]:  # 4 columns
         if col < 2:
             # First two columns: consecutive numbers
             num = row * 2 + col + 1
