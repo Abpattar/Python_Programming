@@ -572,4 +572,5 @@ def main():
         print(f"❌ Error adding tracks to playlists: {e}")
 
 if __name__ == "__main__":
+
     main()
